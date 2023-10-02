@@ -1,0 +1,28 @@
+.testimonials {
+  padding: 32px 64px;
+  background-color: var(--secondary-background-color);
+}
+
+.description {
+  width: 60vmin;
+  color: var(--secondary-text-color);
+  margin-bottom: 64px;
+}
+
+.cards {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 64px;
+}
+
+@media only screen and (max-width: 570px) {
+  .testimonials {
+    text-align: center;
+  }
+  
+  .description {
+    width: 100%;
+  }
+}

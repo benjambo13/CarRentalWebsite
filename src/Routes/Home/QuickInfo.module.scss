@@ -1,0 +1,33 @@
+.quick_info {
+  text-align: center;
+  padding: 64px;
+  box-sizing: border-box;
+
+  h3 {
+    font-size: 38px;
+    margin-top: 16px;
+  }
+
+  h4 {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+
+  img {
+    width: 130px;
+  }
+
+  p {
+    color: var(--secondary-text-color);
+  }
+}
+
+.tiles {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.tile {
+  width: 300px;
+}

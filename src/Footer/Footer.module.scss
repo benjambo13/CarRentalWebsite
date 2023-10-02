@@ -1,0 +1,94 @@
+.footer, .info_pair {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(16rem, 100%), 1fr));
+}
+
+.footer {
+  padding: 32px 32px;
+
+  h3 {
+    margin-bottom: 8px;
+  }
+
+  p, li {
+    margin: 4px 0;
+    font-size: 14px;
+  }
+
+  ul {
+    margin: 0;
+  }
+}
+
+.info_pair {
+  padding: 32px 0;
+}
+
+.info_section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 16px;
+  padding: 0 8px;
+  align-items: center;
+  text-align: center;
+}
+
+// First section of footer
+.contact_info {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.contact_info:first-of-type {
+  margin-top: 16px;
+}
+
+// Second section of footer
+.company_list {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    padding: 4px 0;
+    margin: 0;
+    transition: color 0.5s;
+  }
+
+  li:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+  }
+}
+
+// Fourth section of footer
+.email_input {
+  box-sizing: border-box;
+  margin: 8px 0;
+  width: 100%;
+  padding: 16px;
+  background-color: rgb(234, 234, 234);
+  border: none;
+  border-bottom: transparent solid 1px;
+  transition: border-bottom 0.25s;
+}
+
+.email_input:focus {
+  outline: none;
+  border-bottom: var(--primary-color) solid 1px;
+}
+
+.submit_btn {
+  margin: 8px 0;
+  width: 100%;
+  background-color: var(--primary-color);
+  padding: 14px;
+  border: none;
+  color: white;
+  transition: background-color 0.5s;
+}
+
+.submit_btn:hover {
+  background-color: rgb(236, 90, 63, 0.9);
+}

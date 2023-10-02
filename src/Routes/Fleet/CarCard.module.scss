@@ -1,0 +1,94 @@
+.card {
+  background-color: white;
+  width: 250px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 4px 6px 2px -2px lightgray;
+  border: 1px solid transparent;
+  transition: border 0.5s;
+  border-radius: 5px;
+
+  img {
+    width: 250px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  h3 {
+    margin-bottom: 0;
+  }
+}
+
+.card:hover {
+  border: 1px solid rgb(236, 90, 63, 0.6);
+}
+
+.image_container {
+  height: 175px;
+}
+
+.model {
+  color: var(--primary-color);
+  font-size: 13px;
+  margin-top: 0;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+
+.price_container {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 16px;
+
+  p {
+    font-size: 10px;
+    color: var(--primary-color);
+    margin: 12px 0 0 0;
+  }
+
+  h4 {
+    margin: 0;
+    font-size: 24px;
+  }
+}
+
+.car_facts {
+  color: var(--secondary-text-color);
+
+  p {
+    margin: 4px 0;
+    font-size: 12px;
+  }
+}
+
+.car_facts > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rent_btn {
+  margin: 8px 0;
+  width: 100%;
+  background-color: var(--primary-color);
+  padding: 14px;
+  border: none;
+  color: white;
+  transition: background-color 0.5s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.rent_btn:hover {
+  background-color: rgb(236, 90, 63, 0.9);
+}
+
+
+// https://www.freepnglogos.com/images/car-9292.html
